@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass">
+  <Vendor>
+    <Name>C++ Module Vendor</Name>
+  </Vendor>
+  <DataTypes>
+    <DataType>
+      <Name GUID="{6766d7f3-3908-4d4c-8a3b-39ed7c3ec1e2}" PersistentType="true">ITcVnDisplayableImage</Name>
+      <Comment TxtId="">Interface for displayable images.</Comment>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{00000001-0000-0000-e000-000000000064}">ITcUnknown</BaseType>
+      <Properties>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcVnDisplayableImage</Value>
+        </Property>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcVnBitmapExportRpcUnlocked</Value>
+        </Property>
+        <Property>
+          <Name>RelatedType</Name>
+          <Value>{48da88b5-7b23-4bd4-921b-d39483f1d3ba}</Value>
+        </Property>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcVnBitmapExportNotification</Value>
+        </Property>
+        <Property>
+          <Name>RelatedType</Name>
+          <Value>{733357a0-aa2a-4242-b876-c2b34feef1f8}</Value>
+        </Property>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcVnTiffExportRpcUnlocked</Value>
+        </Property>
+        <Property>
+          <Name>RelatedType</Name>
+          <Value>{cfc0ce0b-0521-4d65-85c4-f774cbdd1bc7}</Value>
+        </Property>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcVnTiffExportNotification</Value>
+        </Property>
+        <Property>
+          <Name>RelatedType</Name>
+          <Value>{dfdcfa99-94ee-4c66-a05e-96cc78fb1641}</Value>
+        </Property>
+        <Property>
+          <Name>Category</Name>
+          <Value>TcSerializableNotification</Value>
+        </Property>
+        <Property>
+          <Name>RelatedType</Name>
+          <Value>{0edd1f90-35e9-4368-8ed9-ef04662e5e31}</Value>
+        </Property>
+        <Property>
+          <Name>docuFolder</Name>
+          <Value>Interfaces\Images</Value>
+        </Property>
+        <Property>
+          <Name>CppApi_NoSmartPointer</Name>
+        </Property>
+      </Properties>
+      <Hides>
+        <Hide GUID="{d208d746-d7d8-4323-ad44-98414484bbe6}" />
+        <Hide GUID="{a19cbc75-aede-4970-97f5-af81adf8fcbf}" />
+        <Hide GUID="{bd9b27fb-0849-4ba6-8301-d63673c74740}" />
+        <Hide GUID="{7a2f3963-3867-475a-bd32-5a35483d243f}" />
+        <Hide GUID="{5F0126E7-FCE0-4376-81FF-4D40F62421C8}" />
+      </Hides>
+    </DataType>
+  </DataTypes>
+  <Groups>
+    <Group SortOrder="701">
+      <Name>C++</Name>
+      <DisplayName>C++ Modules</DisplayName>
+    </Group>
+  </Groups>
+  <Modules>
+    <Module GUID="{0be2f9c4-1861-4fcd-be28-1de9b7505748}" Group="C++">
+      <Name>Module1</Name>
+      <CLSID ClassFactory="Untitled1">{0be2f9c4-1861-4fcd-be28-1de9b7505748}</CLSID>
+      <Licenses>
+        <License>
+          <LicenseId>{304D006A-8299-4560-AB79-438534B50288}</LicenseId>
+          <Comment>TC3 C++</Comment>
+        </License>
+      </Licenses>
+      <InitSequence>PSO</InitSequence>
+      <Contexts>
+        <Context>
+          <Id>1</Id>
+        </Context>
+      </Contexts>
+      <Interfaces>
+        <Interface DisableCodeGeneration="true">
+          <Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+        </Interface>
+        <Interface>
+          <Type GUID="{03000010-0000-0000-E000-000000000064}">ITcCyclic</Type>
+        </Interface>
+        <Interface DisableCodeGeneration="true">
+          <Type GUID="{03000012-0000-0000-E000-000000000064}">ITcADI</Type>
+        </Interface>
+        <Interface DisableCodeGeneration="true">
+          <Type GUID="{03000018-0000-0000-E000-000000000064}">ITcWatchSource</Type>
+        </Interface>
+      </Interfaces>
+      <Parameters>
+        <Parameter HideParameter="true">
+          <Name>TraceLevelMax</Name>
+          <Comment>Controls the amount of log messages.</Comment>
+          <BaseType GUID="{8007ae3b-86bb-40f2-b385-ef87fcc239a4}">TcTraceLevel</BaseType>
+          <PTCID>#x03002103</PTCID>
+          <ContextId>1</ContextId>
+        </Parameter>
+        <Parameter>
+          <Name>oidITcVnImageProvider</Name>
+          <BaseType GUID="{18071995-0000-0000-0000-00000000000f}">OTCID</BaseType>
+          <PTCID>#x00000001</PTCID>
+          <ContextId>1</ContextId>
+        </Parameter>
+      </Parameters>
+      <DataAreas>
+        <DataArea>
+          <AreaNo AreaType="OutputSrc" CreateSymbols="true">1</AreaNo>
+          <Name>Images</Name>
+          <ContextId>1</ContextId>
+          <Symbol CreateSymbol="true">
+            <Name>ipSrcImageDisp</Name>
+            <BaseType GUID="{6766d7f3-3908-4d4c-8a3b-39ed7c3ec1e2}">ITcVnDisplayableImage</BaseType>
+          </Symbol>
+          <Symbol CreateSymbol="true">
+            <Name>ipDestImageDisp</Name>
+            <BaseType GUID="{6766d7f3-3908-4d4c-8a3b-39ed7c3ec1e2}">ITcVnDisplayableImage</BaseType>
+          </Symbol>
+        </DataArea>
+      </DataAreas>
+      <InterfacePointers>
+        <InterfacePointer>
+          <PTCID>#x03002060</PTCID>
+          <Name>CyclicCaller</Name>
+          <Type GUID="{0300001e-0000-0000-e000-000000000064}">ITcCyclicCaller</Type>
+        </InterfacePointer>
+      </InterfacePointers>
+      <DataPointers />
+      <Deployment>
+        <DependsOn>
+          <LibraryId>Beckhoff Automation GmbH|Tc3_Vision|5.5.5.0</LibraryId>
+        </DependsOn>
+      </Deployment>
+    </Module>
+  </Modules>
+  <Library>
+    <Name>Untitled1</Name>
+    <Version>0.0.0.1</Version>
+  </Library>
+</TcModuleClass>
