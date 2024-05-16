@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.5">
-	<Project ProjectGUID="{7F22EC4D-A71A-478E-9A9A-EEB25937687F}" Target64Bit="true" ShowHideConfigurations="#x28f"/>
+	<Project ProjectGUID="{7F22EC4D-A71A-478E-9A9A-EEB25937687F}" Target64Bit="true" ShowHideConfigurations="#x28f">
+		<Cpp>
+			<Project GUID="{26114E11-EEB6-4FE9-A3CC-EF40619B828E}" Name="Untitled1" PrjFilePath="Untitled1\Untitled1.vcxproj" TmcFilePath="Untitled1\Untitled1.tmc"/>
+		</Cpp>
+	</Project>
 </TcSmProject>

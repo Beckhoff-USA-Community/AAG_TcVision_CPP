@@ -1,12 +1,41 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\John Helfrich\\Documents\\GitHub\\AAG_TcVision_CPP\\CPP\\Functions\\ContourAnalysis\\TF7xxx_MatchContours\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26114E11-EEB6-4FE9-A3CC-EF40619B828E}|TF7xxx_MatchContours\\Untitled1\\Untitled1.vcxproj|C:\\Users\\John Helfrich\\Documents\\GitHub\\AAG_TcVision_CPP\\CPP\\Functions\\ContourAnalysis\\TF7xxx_MatchContours\\TF7xxx_MatchContours\\Untitled1\\Module1.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26114E11-EEB6-4FE9-A3CC-EF40619B828E}|TF7xxx_MatchContours\\Untitled1\\Untitled1.vcxproj|solutionrelative:TF7xxx_MatchContours\\Untitled1\\Module1.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{94c070b9-db0b-4415-9311-bac4eef266f5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Module1.props",
+              "DocumentMoniker": "C:\\Users\\John Helfrich\\Documents\\GitHub\\AAG_TcVision_CPP\\CPP\\Functions\\ContourAnalysis\\TF7xxx_MatchContours\\TF7xxx_MatchContours\\Untitled1\\Module1.props",
+              "RelativeDocumentMoniker": "TF7xxx_MatchContours\\Untitled1\\Module1.props",
+              "ToolTip": "C:\\Users\\John Helfrich\\Documents\\GitHub\\AAG_TcVision_CPP\\CPP\\Functions\\ContourAnalysis\\TF7xxx_MatchContours\\TF7xxx_MatchContours\\Untitled1\\Module1.props",
+              "RelativeToolTip": "TF7xxx_MatchContours\\Untitled1\\Module1.props",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-16T16:39:54.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

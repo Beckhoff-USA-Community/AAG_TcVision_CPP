@@ -9,7 +9,7 @@ This sample is created by [Beckhoff Automation LLC.](https://www.beckhoff.com/en
 When developing new Tc Vision projects with TwinCAT C++, we need to do a few extra steps to configure the project. 
 
 1. Add new C++ Project **TwinCAT Versioned C++ Project**
-2. Select the **TwinCAT Module Class with Vision ** as the project's module template
+2. Select the **TwinCAT Module Class with Vision** as the project's module template
 3. If you don’t need all Vision functions in this project, you can delete the License Defines that are not needed in the property sheet. The *.props file with the user specified module name is located in the C++ project folder. A license must be added manually for all existing defines. 
    1. TF7200: LIC_TC3_Vision_Matching
    2. TF7250: LIC_TC3_Vision_Code_Reading 
